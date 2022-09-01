@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+.navContainer{
+    background-color: #000;
+}
+
+.joinBtn{
+    background-color: #ffa05f;
+    font-family: 'Aldrich', sans-seri !important;
+    width: 12rem !important;
+
+}
+.fa-twitter{
+    color: #fff !important;
+    font-size: 26px;
+
+}
+.fa-instagram{
+    color: #fff !important;
+    font-size: 26px;
+
+
+
+}
+.navLink{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.navText{
+    font-size: 14px;
+    font-family: 'Aldrich', sans-seri !important;
+    text-decoration: none;
+    outline: none;
+
+}
+.navText:hover{
+    color: #ffa05f !important;
+    text-decoration: none;
+
+}
+.navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:300px) and (max-width:480px){
+.navLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    /* margin-left: 10px;
+    margin-bottom: 20px; */
+    width: 100% !important;
+}
+.maindivnavnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+   
+
+}
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .navLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        /* margin-top: 20rem; */
+       
+        /* margin-bottom: 20px; */
+    }
+
+    .Navbuttonres{
+        margin-left: 20rem;
+    }
+
+    .navLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        /* margin-left: 10px;
+        margin-bottom: 20px; */
+        width: 100% !important;
+    }
+    .maindivnavnav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+       
+    
+    }
+
+  
+    }
+
+
+    @media (min-width:769px) and (max-width:1024px){
+        .navLinks{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+            /* margin-top: 20rem; */
+           
+            /* margin-bottom: 20px; */
+        }
+    
+        .Navbuttonres{
+            margin-left: 20rem;
+        }
+    
+        .navLinks{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25px;
+            /* margin-left: 10px;
+            margin-bottom: 20px; */
+            width: 100% !important;
+        }
+        .maindivnavnav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100% !important;
+           
+        
+        }
+    
+      
+        }

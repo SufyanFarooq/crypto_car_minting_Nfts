@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+
+.overViweContainer{
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+}
+.overViewInner{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-around;
+  padding-top: 100px;
+
+    
+}
+
+.overviewText{
+    height: 50vh;
+    width: 45%;
+}
+.overviewText p{
+    color: #fff;
+    font-family: 'Aldrich', sans-seri !important;
+    font-size: 26px;
+    font-weight: normal;
+}
+.overviewImage{
+    height: 50vh;
+    width: 40%;
+}
+.overviewImage img{
+    /* transform: (90deg) */
+    transform: scaleX(-1);
+}
+@media (min-width:280px) and (max-width:480px){
+    .overViweContainer{
+
+        height: 100vh;
+
+    }
+    .overViewInner{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+  padding-top: 60px;
+
+  /* justify-content: center; */
+
+
+    }
+    
+    .overviewText{
+        height: 50vh;
+        width: 80%;
+    }
+    .overviewText p{
+        color: #fff;
+        font-family: 'Aldrich', sans-seri !important;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .overviewImage{
+        margin-top: 20px;
+        height: 50vh;
+        width: 80%;
+    }
+    .overviewImage img{
+        /* transform: (90deg) */
+        width: 100%;
+        transform: scaleX(-1);
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px){
+    .overViweContainer{
+
+        height: 100vh;
+
+    }
+    .overViewInner{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+  padding-top: 80px;
+  padding: 0 25px 0 25px;
+
+  /* justify-content: center; */
+
+
+    }
+    
+    .overviewText{
+        height: 50vh;
+        width: 80%;
+    }
+    .overviewText p{
+        color: #fff;
+        font-family: 'Aldrich', sans-seri !important;
+        font-size: 16px;
+        font-weight: normal;
+        
+    }
+    .overviewImage{
+        margin-top: 20px;
+        height: 50vh;
+        width: 80%;
+    }
+    .overviewImage img{
+        /* transform: (90deg) */
+        width: 100%;
+        transform: scaleX(-1);
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .overViweContainer{
+
+        height: 100vh;
+
+    }
+    .overViewInner{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+  padding-top: 80px;
+  padding: 0 25px 0 25px;
+
+  /* justify-content: center; */
+
+
+    }
+    
+    .overviewText{
+        height: 50vh;
+        width: 80%;
+    }
+    .overviewText p{
+        color: #fff;
+        font-family: 'Aldrich', sans-seri !important;
+        font-size: 16px;
+        font-weight: normal;
+        
+    }
+    .overviewImage{
+        margin-top: 20px;
+        height: 50vh;
+        width: 80%;
+    }
+    .overviewImage img{
+        /* transform: (90deg) */
+        width: 100%;
+        transform: scaleX(-1);
+    }
+}
+
+
+
+

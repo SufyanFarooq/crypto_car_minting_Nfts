@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Roboto:wght@300&display=swap');
+
+.roadMapContainer{
+    background-color: #000000;
+    height: 300vh;
+    padding-top: 100px;
+    width: 100%;
+}
+.roadMapHeading{
+    color: #ffa05f;
+    font-family: 'Aldrich', sans-seri !important; 
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.roadMapInner{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.roadMapItem{
+    width: 80%;
+    height: 50vh;
+    
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.roadMapItem1{
+    height: 55vh;
+
+}
+.roadMapItem2{
+    height: 75vh;
+
+}
+.roadMapItem3{
+    height: 65vh;
+}
+.line{
+    height: 60vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;
+}
+.line2{
+    height: 60vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid; 
+}
+.line3{
+    height: 60vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;
+
+}
+.line4{
+    height: 17vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;   
+}
+.roadMapImage{
+    width: 30%;
+    /* padding-top: 50px; */
+
+
+}
+.roadMapItemText{
+
+width: 50%;
+color: #FFF;
+font-size: 22px;
+font-family: 'Aldrich', sans-seri !important; 
+
+}
+.roadMapItemText h4{
+    margin-top: 2rem;
+    color: #ffa05f;
+    font-family: 'Aldrich', sans-seri !important; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media (min-width:280px) and (max-width:480px) {
+    .roadMapHeading{
+       
+        text-align: center;
+        font-size: 30px;
+       
+        padding-bottom: 30px;
+    }
+    .line{
+      display: none;
+    }
+    .no1roadmap{
+        width: 20%;
+
+    }
+    .roadMapImage{
+        width: 100%;
+        /* padding-top: 50px; */
+    
+    
+    }
+    .roadMapItem1{
+        height: auto;
+    
+    }
+    
+
+    .roadMapContainer{
+      
+        height: auto;
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    .roadMapItemText{
+
+        width: 100%;
+       
+        font-size: 16px;
+        
+    }
+
+ .roadMapItem{
+            width: 100%;
+            height: auto;
+            
+            display: flex;
+            flex-direction: column;
+            /* align-items: ; */
+            /* justify-content: center; */
+            
+    }
+ .roadMapItemText h4{
+            margin-top: 2rem;
+           
+           width: 100% !important;
+            font-size: 20px;
+           
+        }
+
+        .roadMapInner{
+            margin-left: 40px;
+            margin-top: 50px;
+            margin-right: 20px;
+        }
+
+        /* -----------------------------Second------------- */
+        .line2{
+            display: none;
+        }
+        .line4{
+          display: none;  
+        }
+        .line3{
+       display: none;
+        
+        }
+}
+
+
+
+
+@media (min-width:481px) and (max-width:768px) {
+
+    
+.roadMapContainer{
+    background-color: #000000;
+    height: auto;
+    padding-top: 100px;
+    width: 100%;
+}
+.roadMapHeading{
+    margin-top: 40rem ;
+    
+    text-align: center;
+    font-size: 50px;
+  
+    padding-bottom: 30px;
+}
+.roadMapInner{
+    margin-left: 40px;
+    margin-top: 50px ;
+    margin-right: 25px;
+}
+.roadMapItem{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.roadMapItem1{
+    height: auto;
+
+}
+.roadMapItem2{
+    height: auto;
+
+}
+.roadMapItem3{
+    height: auto;
+}
+.line{
+    height: 40vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;
+}
+.line2{
+    height: 67vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid; 
+}
+.line4{
+    height: 23vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;   
+}
+
+.line3{
+    height: 70vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid; 
+
+}
+.roadMapImage{
+    width: 30%;
+    /* padding-top: 50px; */
+
+
+}
+.roadMapItemText{
+
+width: 100%;
+color: #FFF;
+font-size: 23px;
+
+
+}
+.roadMapItemText h4{
+    margin-top: 2rem;
+    
+   
+  
+    font-size: 25px;
+}
+
+   
+}
+
+
+
+@media (min-width:481px) and (max-width:768px) {
+
+    
+.roadMapContainer{
+    background-color: #000000;
+    height: auto;
+    padding-top: 100px;
+    width: 100%;
+}
+.roadMapHeading{
+    margin-top: 40rem ;
+    
+    text-align: center;
+    font-size: 50px;
+  
+    padding-bottom: 30px;
+}
+.roadMapInner{
+    margin-left: 40px;
+    margin-top: 50px ;
+    margin-right: 25px;
+}
+.roadMapItem{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.roadMapItem1{
+    height: auto;
+
+}
+.roadMapItem2{
+    height: auto;
+
+}
+.roadMapItem3{
+    height: auto;
+}
+.line{
+    height: 40vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;
+}
+.line2{
+    height: 67vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid; 
+}
+.line4{
+    height: 23vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;   
+}
+
+.line3{
+    height: 70vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid; 
+
+}
+.roadMapImage{
+    width: 30%;
+    /* padding-top: 50px; */
+
+
+}
+.roadMapItemText{
+
+width: 100%;
+color: #FFF;
+font-size: 23px;
+
+
+}
+.roadMapItemText h4{
+    margin-top: 2rem;
+    
+   
+  
+    font-size: 25px;
+}
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    
+    .roadMapContainer{
+        background-color: #000000;
+        height: auto;
+        padding-top: 100px;
+        width: 100%;
+    }
+    .roadMapHeading{
+        margin-top: 5rem;
+    
+        font-size: 50px;
+    
+        padding-bottom: 30px;
+    }
+    .roadMapInner{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .roadMapItem{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+        justify-content: center;
+        
+    }
+    .roadMapItem1{
+        height: 55vh;
+    
+    }
+    .roadMapItem2{
+        height: 75vh;
+    
+    }
+    .roadMapItem3{
+        height: 65vh;
+    }
+    .line{
+        height: 60vh;
+        width: 0;
+        margin-left: 70px;
+        border: #ffa05f 2px solid;
+    }
+    .line2{
+        height: 60vh;
+        width: 0;
+        margin-left: 70px;
+        border: #ffa05f 2px solid; 
+    }
+    .line3{
+        height: 60vh;
+        width: 0;
+        margin-left: 70px;
+        border: #ffa05f 2px solid;
+    
+    }
+    .line4{
+        height: 17vh;
+        width: 0;
+        margin-left: 70px;
+        border: #ffa05f 2px solid;   
+    }
+    .roadMapImage{
+        width: 30%;
+        /* padding-top: 50px; */
+    
+    
+    }
+    .roadMapItemText{
+    
+    width: 100%;
+    
+    font-size: 23px;
+    
+    
+    }
+    .roadMapItemText h4{
+        margin-top: 2rem;
+        
+        font-size: 25px;
+    }
+    
+    }
+
+
+
+
+    @media (min-width:769px) and (max-width:1024px) {
+
+    
+        .roadMapContainer{
+            background-color: #000000;
+            height: auto;
+            padding-top: 100px;
+            width: 100%;
+        }
+        .roadMapHeading{
+            margin-top: 5rem;
+        
+            font-size: 50px;
+        
+            padding-bottom: 30px;
+        }
+        .roadMapInner{
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .roadMapItem{
+            width: 100%;
+            height: auto;
+            
+            display: flex;
+            flex-direction: row;
+            /* align-items: center; */
+            justify-content: center;
+            
+        }
+        .roadMapItem1{
+            height: 55vh;
+        
+        }
+        .roadMapItem2{
+            height: 75vh;
+        
+        }
+        .roadMapItem3{
+            height: 65vh;
+        }
+        .line{
+            height: 60vh;
+            width: 0;
+            margin-left: 70px;
+            border: #ffa05f 2px solid;
+        }
+        .line2{
+            height: 60vh;
+            width: 0;
+            margin-left: 70px;
+            border: #ffa05f 2px solid; 
+        }
+        .line3{
+            height: 60vh;
+            width: 0;
+            margin-left: 70px;
+            border: #ffa05f 2px solid;
+        
+        }
+        .line4{
+            height: 17vh;
+            width: 0;
+            margin-left: 70px;
+            border: #ffa05f 2px solid;   
+        }
+        .roadMapImage{
+            width: 30%;
+            /* padding-top: 50px; */
+        
+        
+        }
+        .roadMapItemText{
+        
+        width: 100%;
+        
+        font-size: 23px;
+        
+        
+        }
+        .roadMapItemText h4{
+            margin-top: 2rem;
+            
+            font-size: 25px;
+        }
+        
+        }
+
+
+
+
+
+
+/* ----------------------------------- 768-------990------ */
+
+@media (min-width:769px) and (max-width:990px) {
+
+    
+.roadMapContainer{
+    background-color: #000000;
+    height: auto;
+    padding-top: 100px;
+    width: 100%;
+}
+.roadMapHeading{
+    margin-top: 25rem;
+
+    font-size: 50px;
+
+    padding-bottom: 30px;
+}
+.roadMapInner{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.roadMapItem{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.roadMapItem1{
+    height: 55vh;
+
+}
+.roadMapItem2{
+    height: 75vh;
+
+}
+.roadMapItem3{
+    height: 65vh;
+}
+.line{
+    height: 60vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;
+}
+.line2{
+    height: 60vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid; 
+}
+.line3{
+    height: 60vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;
+
+}
+.line4{
+    height: 17vh;
+    width: 0;
+    margin-left: 70px;
+    border: #ffa05f 2px solid;   
+}
+.roadMapImage{
+    width: 30%;
+    /* padding-top: 50px; */
+
+
+}
+
+
+.roadMapItemText{
+
+  
+  
+   
+
+width: 80%;
+
+font-size: 20px;
+
+
+}
+.roadMapItemText h4{
+    margin-top: 2rem;
+    
+    font-size: 25px;
+}
+
+}
